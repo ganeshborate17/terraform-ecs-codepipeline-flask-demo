@@ -31,5 +31,5 @@ variable "github_repo_name" {
   default = "terraform-ecs-codepipeline-flask-demo-1"
 }
 variable "github_branch" {
-  default = "main"
+  default = "demo"
 }
