@@ -24,12 +24,15 @@ variable "image_tag" {
 variable "image_repo_url" {
   default = "315934191075.dkr.ecr.ap-south-1.amazonaws.com/flask-application-demo"
 }
+
+
 variable "github_repo_owner" {
   default = "borateganesh17"
 }
+
 variable "github_repo_name" {
-  default = "terraform-ecs-codepipeline-flask-demo-1"
+  default = "terraform-ecs-codepipeline-flask-demo"
 }
 variable "github_branch" {
-  default = "demo"
+  default = "main"
 }
